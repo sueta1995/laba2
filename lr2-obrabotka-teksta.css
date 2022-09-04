@@ -1,0 +1,24 @@
+.den {
+    font-style: italic;
+}
+
+#chimia {
+    color: aqua;
+}
+
+#matesha {
+    color: red;
+}
+
+#chimia, #matesha {
+    font-family: sans-serif;
+}
+
+p {
+    font-size: 20px;
+}
+
+mark {
+    background: wheat;
+    border: 1px dashed black;
+}

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>ICS6 Bootstrap</title>
+ <!-- <link href="http://e-learning.bmstu.ru/moodle/pluginfile.php/7546/mod_folder/content/0/bootstrap.min.css" rel="stylesheet"> -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ <link rel="stylesheet" href="lr2-bootstrap.css" type="text/css">
+<style>
+ html {
+ position: relative;
+ min-height: 100%;
+ }
+ body {
+ margin-bottom: 40px;
+ }
+ main {
+ margin-top: 15px;
+ }
+ footer {
+ height: 40px;
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+ }
+ .my-primary {
+ color: white;
+ }
+ </style>
+</head>
+<body>
+ <header>
+ <nav class="navbar navbar-expand-lg navbar-dark my-primary">
+ <a class="navbar-brand" href="#">Жесть</a>
+ <ul class="navbar-nav mr-auto">
+ <li class="nav-item active">
+ <a class="nav-link" href="https://sueta.fun/yip/">Hачало
+ <span class="sr-only">(current)</span>
+ </a>
+ </li>
+ <li class="nav-item">
+    <a class="nav-link" href="https://sueta.fun/">Ссылки</a>
+</li>
+</ul>
+</nav>
+</header>
+<main class="container">
+<div class="row">
+<div class="col-4">
+<!-- <img src=" https://e-learning.bmstu.ru/moodle/pluginfile.php/7546/mod_folder/content/0/avatar.jpg" alt="avatar" width="150" height="150"> -->
+<img src="https://sun9-33.userapi.com/impg/dhXbufE5ywtdzOPxizJF2TBZvqaJ6JuAOf35Ag/_3CD_2MOOro.jpg?size=2560x2301&quality=95&sign=423d3d20712c1d5e1228f04a0cedc6c8&type=album" alt="avatar" width="50" height="50">
+</div>
+<div class="col-8">
+<p>Блин, кто же это?</p>
+</div>
+</div>
+
+<div class="row"> 
+<div class="col-4">
+    <table>
+        <tr>
+            <th align="left">Login:</th>
+            <th colspan="2"><input type="email" /></th>
+        </tr>
+        <tr>
+            <th align="left" width="100px">Password:</th>
+            <th colspan="2"><input type="password" /></th>
+        </tr>
+        <tr></tr>
+        <tr>
+            <th></th>
+            <th align="left"><input type="submit" /></th>
+            <th></th>
+        </tr>
+    </table>
+    <br>
+</div>
+</div>
+<div class="row">
+<div class="col-6">
+    <h2>Расписание для ИУ6-35Б на пятницу</h2>
+    <br>
+    <table border="1">
+        <tr>
+            <th>Время</th>
+            <th>Числитель</th>
+            <th>Знаменатель</th>
+        </tr>
+        <tr>
+            <th>8.30 - 10.05</th>
+            <th colspan="2">(сем) Теория вероятностей и математическая статистика 1035л</th>
+        </tr>
+        <tr>
+            <th>10.15 - 11.50</th>
+            <th>(лек) Теория вероятностей и математическая статистика 744л Горяинов В. Б.</th>
+            <th>(лек) Правоведение 744л</th>
+        </tr>
+        <tr>
+            <th>12.00 - 13.35</th>
+            <th>(лаб) Электротехника каф. ИУ6</th>
+            <th></th>
+        </tr>
+        <tr>
+            <th>13.50 - 15.25</th>
+            <th>(лаб) Электротехника каф. ИУ6</th>
+            <th></th>
+        </tr>
+        <tr>
+            <th>15:40 - 17:15</th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th>17:25 - 19:00</th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <th>19:10 - 20:45</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </table>
+</div>
+<div class="col">
+    <h2>Прекрасный текст:</h2>
+    <br>
+    <p>В день написания этой строчки был знаменательный день <mark>3 сентября</mark>!</p>
+    <p>Именно в этот день <strong>ОЧЕНЬ</strong> хочется слушать одну из песен Шуфутинского.</p>
+    <p><mark>3 сентября</mark>, день <strong>прощания</strong>,</p>
+    <p>День, когда горят костры <s>яблок</s> рябин;</p>
+    <p>Как костры горят <small>обещания</small></p>
+    <p>В день, когда я совсем <strong>один</strong>.</p>
+    <p>Я <strong>календарь</strong> переверну</p>
+    <p>И снова <mark>3 сентября</mark>,</p>
+    <p>На <small>фото</small> я твое взгляну,</p>
+    <p>И снова <mark>3 сентября</mark> ... итд</p>
+    <br>
+    <p>Формула этилового спирта: C<sub>2</sub>H<sub>5</sub>OH</p>
+    <br>
+    <p>Теорема пифагора: <var>a<sup>2</sup></var> + <var>b<sup>2</sup></var> = <var>c<sup>2</sup></var></p>
+    <br>
+    <p>Программа на языке <s>C++</s> Pascal:</p>
+    <pre>
+        <code>
+program abc;
+var i: integer;
+begin
+    for i:=0 to 5 do
+        writeln('Hello world');
+end.
+        </code>
+    </pre>
+    <br>
+</div>
+</div>
+</main>
+<footer class="my-primary">
+<div class="container">
+<p class="footer-text">Все права защищены, sueta1995, 2022</p>
+</div>
+</footer>
+</body>
+</html>

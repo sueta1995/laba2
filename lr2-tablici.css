@@ -1,0 +1,19 @@
+div {
+    text-align: center;
+}
+
+div[cell] {
+    border: 1px solid grey;
+}
+
+#chislitel {
+    background-color: #cfe3d7;
+}
+
+#znamenatel {
+    background-color: #e2eff7;
+}
+
+.opisanie {
+    font-style: italic;
+}

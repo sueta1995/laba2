@@ -1,3 +1,15 @@
 .my-primary {
-    background-color: black;
+    background-color:dimgrey;
+}
+
+#vremya {
+    background-color: blanchedalmond;
+}
+
+#chislitel {
+    background-color: aquamarine;
+}
+
+#znamenatel {
+    background-color: lavender;
 }
